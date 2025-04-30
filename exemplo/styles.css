@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Delius&family=Orbitron:wght@400..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Wet+Paint&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('pexels-felixmittermeier-957002.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 420px;
+    background-color: transparent; /*deixar fundo da aba de login tranparente */
+    border: 1px solid rgb(0, 0, 0);; /*grossura borda e cor dela na parte de login */
+    border-radius: 80px;/*arretondamento da borda */
+    color: rgb(0, 0, 0);
+    padding: 40px 30px; /* tamanho da borda*/
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 13px 27px -5px, rgba(97, 88, 88, 0.3) 0px 8px 16px -8px; /* fundo para borda do login*/
+    backdrop-filter: blur(1px);
+}
+
+.container h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0.8px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    outline: none;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.relembrar-senha {
+   display: flex;
+   justify-content: space-between; 
+   margin: -15px 0 15px;
+   font-weight: 500;
+}
+
+.relembrar-senha label input {
+    accent-color: #000000;
+    margin-right: 5px;
+}
+
+.relembrar-senha a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.relembrar-senha a:hover {
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.login {
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
+    margin-top: 20px;
+}
+
+.login:hover {
+    background-color: transparent;
+    border: 0.8px solid rgb(255, 255, 255);
+    color: #000000;
+    transition: 0.5s;
+}
+
+.registro-conta {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+
+}
+
+.registro-conta a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+
+}
+
+.registro-conta a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+
+}
